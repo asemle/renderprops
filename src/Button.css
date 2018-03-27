@@ -1,0 +1,160 @@
+.btn {
+    line-height: 1.5;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    border: 1px solid #d9d9d9;
+    white-space: nowrap;
+    padding: 0 15px;
+    font-size: 14px;
+    border-radius: 4px;
+    height: 32px;
+    margin-right: 8px;
+    margin-bottom: 12px;
+    background-color: white;
+    color: rgba(0, 0, 0, 0.65);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.roundBtn {
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    border-radius: 50%;
+}
+
+.defaultStyle:hover {
+    border-color: #40a9ff;
+    color: #40a9ff;
+}
+
+.primaryStyle {
+    background-color: #1890ff;
+    color: white;
+    border: 0;
+}
+
+.primaryStyle:hover {
+    background-color: #40a9ff;
+    border-color: #40a9ff;
+}
+
+.dashedStyle {
+    border-style: dashed;
+}
+
+.dashedStyle:hover {
+    border-color: #40a9ff;
+    color: #40a9ff;
+}
+
+.dangerStyle {
+    background-color: #f5f5f5;
+    color: #f5222d;
+}
+
+.dangerStyle:hover {
+    color: white;
+    background-color: #f5222d;
+    border: 1px solid #f5222d;
+}
+
+.listDemo {
+    width: 80vh;
+    margin: 0 auto;
+}
+
+.listDemo .card {
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    font-family: "Monospaced Number", "Chinese Quote", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    color: rgba(0, 0, 0, 0.65);
+    border-bottom: 1px solid #e8e8e8;
+    border-left: 1px solid #e8e8e8;
+    border-right: 1px solid #e8e8e8;
+}
+
+.index0 {
+    border-top: 1px solid #e8e8e8;
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px;
+}
+
+.lastIndex {
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+
+.listDemo2 {
+    width: 80vh;
+    margin: 0 auto;
+    border: 1px solid #ebedf0;
+    border-radius: 2px;
+    margin-top: 30px;
+    padding: 42px 24px 50px;
+    color: rgba(0, 0, 0, 0.65);
+}
+
+.listDemo2 .card {
+    flex: 1 0;
+    width: 100%;
+    text-align: left;
+}
+
+.cardInner {
+    display: flex;
+    align-items: flex-start;
+    border-bottom: 1px solid #e8e8e8;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+
+.cardAvatar {
+    margin-right: 16px;
+    width: 32px;
+    height: 32px;
+}
+
+.cardAvatar span {
+    overflow: hidden;
+}
+
+.cardAvatar span img {
+    width: 100%;
+}
+
+.cardTitle {
+    color: rgba(0, 0, 0, 0.65);
+    margin-bottom: 4px;
+    font-size: 14px;
+    line-height: 22px;
+    width: 100%;
+}
+
+.cardText {
+    color: rgba(0, 0, 0, 0.45);
+    font-size: 14px;
+    line-height: 22px;
+}
+
+
+/* <div className="cardInner"><div className="cardAvatar"><span><img src="https://zos.alipayobjects.com/rmsportal/ODTLcjxAfvqbxHnVXCYX.png"/></span></div><div><ListItem renderTitle= {
+    ()=><div className="cardTitle"> {
+        item.title
+    }
+    </div>
+}
+
+renderText= {
+    ()=><div className="cardText"> {
+        item.Text
+    }
+    </div>
+}
+
+/></div></div> */
